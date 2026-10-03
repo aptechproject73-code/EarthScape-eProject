@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+# Secrets / env
+.env
+*.pem
+*.key
+# Data (keep small samples only)
+data/large/
+*.parquet
+!data/sample/**/*.parquet
+# Big data runtime
+*.log
+hadoop-data/
+kafka-logs/
+mongo-data/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+# Build / submission
+submission/*.zip
